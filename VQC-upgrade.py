@@ -1,8 +1,4 @@
 from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
-from alpaca_trade_api import REST
-
-# Create a REST client for Alpaca.
-api = REST(API_KEY, SECRET_KEY)
 
 # Set the threshold for the likelihood of the option price going up.
 THRESHOLD = 0.5
