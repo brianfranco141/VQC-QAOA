@@ -1,10 +1,6 @@
 from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit
 from alpaca_trade_api import REST
 
-# Set the API key and secret key for Alpaca.
-API_KEY = "<your-api-key>"
-SECRET_KEY = "<your-secret-key>"
-
 # Create a REST client for Alpaca.
 api = REST(API_KEY, SECRET_KEY)
 
