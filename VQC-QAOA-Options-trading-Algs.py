@@ -6,10 +6,6 @@ from qiskit.aqua.components.variational_forms import RY
 from qiskit.circuit.library import TwoLocal
 from alpaca_trade_api import REST
 
-API_KEY = "<your-api-key>"
-SECRET_KEY = "<your-secret-key>"
-api = REST(API_KEY, SECRET_KEY)
-
 # Define the number of qubits and the number of iterations for the VQC and QAOA algorithms.
 NUM_QUBITS = 5
 NUM_ITERATIONS = 100
